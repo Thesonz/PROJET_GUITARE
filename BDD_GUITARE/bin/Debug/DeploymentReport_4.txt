@@ -1,0 +1,35 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       [dbo].[BOISTYPES]
+       [dbo].[CLIENTS]
+       [dbo].[COMMANDES]
+       [dbo].[MICROTYPES]
+       [dbo].[VIBRATOTYPES]
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Recréer la table
+       [dbo].[BOISTYPES] (Table)
+       [dbo].[CLIENTS] (Table)
+       [dbo].[COMMANDES] (Table)
+       [dbo].[MICROTYPES] (Table)
+       [dbo].[VIBRATOTYPES] (Table)
+     Créer
+       [dbo].[STATISTIQUES] (Table)
+       Clé étrangère: contrainte sans nom sur [dbo].[CLIENTS] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+
+** Actions de support

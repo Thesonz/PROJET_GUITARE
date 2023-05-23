@@ -1,0 +1,41 @@
+﻿<Page x:Class="IHM_VRAI_CUSTOM_NET.F.P.P_LOGIN_G_INSCRIPTION"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+      xmlns:local="clr-namespace:IHM_VRAI_CUSTOM_NET.F.P"
+      mc:Ignorable="d" Width="320" Height="650" Background="Transparent"
+      Title="P_LOGIN_G_INSCRIPTION">
+
+    <Grid>
+        <Border Padding="0" CornerRadius="10 0 0 10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#223266" Offset="0"/>
+                    <GradientStop Color="#22396b" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Canvas>
+                    <Polygon Points="0,20 230,140 0,270" Fill="#7f7cf1"/>
+                    <Polygon Points="100,400 200,370 180,470" Fill="#7f7cf1"/>
+                    <Ellipse Margin="250 450 0 0" Width="40" Height="40" Fill="#7f7cf1"/>
+                    <Ellipse Margin="50 400 0 0" Width="20" Height="20" Fill="#7f7cf1"/>
+
+                </Canvas>
+                
+                <StackPanel Margin="10 0" VerticalAlignment="Center">
+                    <fa:IconImage Icon="User" Foreground="#fff" Width="160" Height="160" Margin="0 0 0 40"/>
+
+                    <TextBlock TextWrapping="Wrap" Text="Commencez votre inscription" Style="{StaticResource titleText}"/>
+                    <TextBlock TextWrapping="Wrap" FontSize="16" TextAlignment="Center" Foreground="#fff" Margin="0 20 0 20" Text="Cela ne devrait prendre que quelques minutes pour crée votre compte"/>
+
+                    <Button x:Name="BT_Connexion" Click="BT_Connexion_Click" Content="Connexion" Style="{StaticResource button}"/>
+
+
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

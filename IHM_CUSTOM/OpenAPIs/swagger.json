@@ -1,0 +1,1421 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebGuitare",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Authentification/GetAllAuthentifications": {
+      "get": {
+        "tags": [
+          "Authentification"
+        ],
+        "operationId": "GetAllAuthentifications",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Authentification/GetAuthentificationById": {
+      "get": {
+        "tags": [
+          "Authentification"
+        ],
+        "operationId": "GetAuthentificationById",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Authentification/AddAuthentification": {
+      "post": {
+        "tags": [
+          "Authentification"
+        ],
+        "operationId": "AddAuthentification",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Authentification/UpdateAuthentification": {
+      "put": {
+        "tags": [
+          "Authentification"
+        ],
+        "operationId": "UpdateAuthentification",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_AUTHENTIFICATION"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Authentification/DeleteAuthentification": {
+      "delete": {
+        "tags": [
+          "Authentification"
+        ],
+        "operationId": "DeleteAuthentification",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/BoisType/GetAllBoisTypes": {
+      "get": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "GetAllBoisTypes",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BoisType/GetBoisTypeById": {
+      "get": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "GetBoisTypeById",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BoisType/GetBoisTypeByNom": {
+      "get": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "GetBoisTypeByNom",
+        "parameters": [
+          {
+            "name": "P_Nom",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BoisType/AddBoisType": {
+      "post": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "AddBoisType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BoisType/UpdateBoisType": {
+      "put": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "UpdateBoisType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_BOISTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/BoisType/DeleteBoisType": {
+      "delete": {
+        "tags": [
+          "BoisType"
+        ],
+        "operationId": "DeleteBoisType",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Client/GetAllClients": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "operationId": "GetAllClients",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_BOISTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Client/GetClientByNom": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "operationId": "GetClientByNom",
+        "parameters": [
+          {
+            "name": "P_Nom",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_CLIENT"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_CLIENT"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_CLIENT"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Client/AddClient": {
+      "post": {
+        "tags": [
+          "Client"
+        ],
+        "operationId": "AddClient",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Client/UpdateClient": {
+      "put": {
+        "tags": [
+          "Client"
+        ],
+        "operationId": "UpdateClient",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_CLIENT"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Client/DeleteClient": {
+      "delete": {
+        "tags": [
+          "Client"
+        ],
+        "operationId": "DeleteClient",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Commande/GetAllCommandes": {
+      "get": {
+        "tags": [
+          "Commande"
+        ],
+        "operationId": "GetAllCommandes",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Commande/GetCommandeById": {
+      "get": {
+        "tags": [
+          "Commande"
+        ],
+        "operationId": "GetCommandeById",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Commande/GetCommandeByNom": {
+      "get": {
+        "tags": [
+          "Commande"
+        ],
+        "operationId": "GetCommandeByNom",
+        "parameters": [
+          {
+            "name": "P_Nom",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_COMMANDE"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Commande/AddCommande": {
+      "post": {
+        "tags": [
+          "Commande"
+        ],
+        "operationId": "AddCommande",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_COMMANDE"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_COMMANDE"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_COMMANDE"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Guitare/AddGuitare": {
+      "post": {
+        "tags": [
+          "Guitare"
+        ],
+        "operationId": "AddGuitare",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_GUITARE"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_GUITARE"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_GUITARE"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MicroType/GetAllMicroTypes": {
+      "get": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "GetAllMicroTypes",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MicroType/GetMicroTypeById": {
+      "get": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "GetMicroTypeById",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MicroType/GetMicroTypeByNom": {
+      "get": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "GetMicroTypeByNom",
+        "parameters": [
+          {
+            "name": "P_Nom",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_MICROTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MicroType/AddMicroType": {
+      "post": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "AddMicroType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MicroType/UpdateMicroType": {
+      "put": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "UpdateMicroType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_MICROTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/MicroType/DeleteMicroType": {
+      "delete": {
+        "tags": [
+          "MicroType"
+        ],
+        "operationId": "DeleteMicroType",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VibratoType/GetAllVibratoTypes": {
+      "get": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "GetAllVibratoTypes",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VibratoType/GetVibratoTypeById": {
+      "get": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "GetVibratoTypeById",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VibratoType/GetVibratoTypeByNom": {
+      "get": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "GetVibratoTypeByNom",
+        "parameters": [
+          {
+            "name": "P_Nom",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/C_VIBRATOTYPES"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VibratoType/AddVibratoType": {
+      "post": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "AddVibratoType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VibratoType/UpdateVibratoType": {
+      "put": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "UpdateVibratoType",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/C_VIBRATOTYPES"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VibratoType/DeleteVibratoType": {
+      "delete": {
+        "tags": [
+          "VibratoType"
+        ],
+        "operationId": "DeleteVibratoType",
+        "parameters": [
+          {
+            "name": "P_Id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "C_AUTHENTIFICATION": {
+        "type": "object",
+        "properties": {
+          "idAuth": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "adresseMailAuth": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordAuth": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_BOISTYPES": {
+        "type": "object",
+        "properties": {
+          "idBois": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomBois": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionBois": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispoBois": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_CLIENT": {
+        "type": "object",
+        "properties": {
+          "idClient": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomClient": {
+            "type": "string",
+            "nullable": true
+          },
+          "prenomClient": {
+            "type": "string",
+            "nullable": true
+          },
+          "adresseClient": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpClient": {
+            "type": "string",
+            "nullable": true
+          },
+          "photoClient": {
+            "type": "string",
+            "nullable": true
+          },
+          "authId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_COMMANDE": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numeroCom": {
+            "type": "string",
+            "nullable": true
+          },
+          "reportagePhotoCam": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "guitareId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_GUITARE": {
+        "type": "object",
+        "properties": {
+          "idGuitare": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mancheBoisId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "toucheBoisId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "corpBoisId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "neckMicroId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "centralMicroId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bridgeMicroId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vibratoId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_MICROTYPES": {
+        "type": "object",
+        "properties": {
+          "idMicro": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomMicro": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionMicro": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispoMicro": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "C_VIBRATOTYPES": {
+        "type": "object",
+        "properties": {
+          "idVibrato": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomVibrato": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptionVibrato": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispoVibrato": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

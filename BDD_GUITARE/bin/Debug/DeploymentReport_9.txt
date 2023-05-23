@@ -1,0 +1,83 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       [dbo].[STATISTIQUES]
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       La colonne [dbo].[STATISTIQUES].[revenueMois] est en cours de suppression, des données risquent d'être perdues.
+       La colonne [dbo].[STATISTIQUES].[dateAnnee] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisAout] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisAvri] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisDece] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisFevr] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisJanv] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisJuil] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisJuin] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisMai] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisMars] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisNove] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisOcto] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+       La colonne [dbo].[STATISTIQUES].[revenueMoisSept] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne
+         comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER
+         ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme
+         autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+
+** Actions de l'utilisateur
+     Recréer la table
+       [dbo].[STATISTIQUES] (Table)
+
+** Actions de support
+
+La colonne [dbo].[STATISTIQUES].[revenueMois] est en cours de suppression, des données risquent d'être perdues.
+La colonne [dbo].[STATISTIQUES].[dateAnnee] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisAout] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisAvri] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisDece] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisFevr] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisJanv] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisJuil] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisJuin] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisMai] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisMars] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisNove] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisOcto] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+La colonne [dbo].[STATISTIQUES].[revenueMoisSept] de la table [dbo].[STATISTIQUES] doit être ajoutée mais la colonne ne comporte pas de valeur par défaut et n'autorise pas les valeurs NULL. Si la table contient des données, le script ALTER ne fonctionnera pas. Pour éviter ce problème, vous devez ajouter une valeur par défaut à la colonne, la marquer comme autorisant les valeurs Null ou activer la génération de smart-defaults en tant qu'option de déploiement.
+

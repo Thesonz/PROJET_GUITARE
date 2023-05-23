@@ -1,0 +1,65 @@
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.exe
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.deps.json
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.runtimeconfig.json
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.dll
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.pdb
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.AssemblyReference.cache
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfoInputs.cache
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfo.cs
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.CoreCompileInputs.cache
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.dll
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\refint\CMD_TEST.dll
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.pdb
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.genruntimeconfig.cache
+C:\Users\Theo Sonzogni\Desktop\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\ref\CMD_TEST.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.exe
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.deps.json
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.runtimeconfig.json
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.pdb
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.AssemblyReference.cache
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.GeneratedMSBuildEditorConfig.editorconfig
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfoInputs.cache
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfo.cs
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.CoreCompileInputs.cache
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\refint\CMD_TEST.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.pdb
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.genruntimeconfig.cache
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\ref\CMD_TEST.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\Dapper.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\LIB_BDD_Custom.dll
+D:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\LIB_BDD_Custom.pdb
+D:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.CopyComplete
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.exe
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.deps.json
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.runtimeconfig.json
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\CMD_TEST.pdb
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\Dapper.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\System.Data.SqlClient.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\LIB_BDD_Custom.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\bin\Debug\net7.0\LIB_BDD_Custom.pdb
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.AssemblyReference.cache
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.GeneratedMSBuildEditorConfig.editorconfig
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfoInputs.cache
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.AssemblyInfo.cs
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.CoreCompileInputs.cache
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.csproj.CopyComplete
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\refint\CMD_TEST.dll
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.pdb
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\CMD_TEST.genruntimeconfig.cache
+G:\SLT_PROJET_GUITARE\CMD_TEST\obj\Debug\net7.0\ref\CMD_TEST.dll

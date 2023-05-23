@@ -1,0 +1,54 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       [dbo].[AUTHENTIFICATIONS]
+       [dbo].[BOISTYPES]
+       [dbo].[CLIENTS]
+       [dbo].[COMMANDES]
+       [dbo].[MICROTYPES]
+       [dbo].[VIBRATOTYPES]
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Le type de la colonne adresseMailAuth dans la table [dbo].[AUTHENTIFICATIONS] est actuellement  VARCHAR (50) NULL, mais
+         est remplacé par  VARCHAR (32) NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la
+         colonne contient des données incompatibles avec le type  VARCHAR (32) NULL.
+
+** Actions de l'utilisateur
+     Supprimer
+       contrainte sans nom sur [dbo].[CLIENTS] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+     Recréer la table
+       [dbo].[AUTHENTIFICATIONS] (Table)
+       [dbo].[BOISTYPES] (Table)
+       [dbo].[CLIENTS] (Table)
+       [dbo].[COMMANDES] (Table)
+       [dbo].[MICROTYPES] (Table)
+       [dbo].[VIBRATOTYPES] (Table)
+     Créer
+       [dbo].[STATISTIQUES] (Table)
+
+** Actions de support
+     Créer
+       Clé étrangère: contrainte sans nom sur [dbo].[CLIENTS] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[COMMANDES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[GUITARES] (Clé étrangère)
+
+Le type de la colonne adresseMailAuth dans la table [dbo].[AUTHENTIFICATIONS] est actuellement  VARCHAR (50) NULL, mais est remplacé par  VARCHAR (32) NULL. Une perte de données peut se produire et le déploiement risque d'échouer si la colonne contient des données incompatibles avec le type  VARCHAR (32) NULL.
+

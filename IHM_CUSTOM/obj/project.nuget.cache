@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SI5rpqsGB36BmBlLqSfEAwx7qVrGdY3wHYXQ/UkLPOBmQoth5sARB7yX3WuL3Wev5nW1o1rnlYVPMIql6JF96w==",
+  "success": true,
+  "projectFilePath": "F:\\SLT_PROJET_GUITARE\\IHM_CUSTOM\\IHM_CUSTOM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\microsoft.extensions.apidescription.client\\7.0.4\\microsoft.extensions.apidescription.client.7.0.4.nupkg.sha512",
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\nswag.apidescription.client\\13.18.2\\nswag.apidescription.client.13.18.2.nupkg.sha512",
+    "C:\\Users\\Theo Sonzogni\\.nuget\\packages\\nswag.msbuild\\13.18.2\\nswag.msbuild.13.18.2.nupkg.sha512"
+  ],
+  "logs": []
+}

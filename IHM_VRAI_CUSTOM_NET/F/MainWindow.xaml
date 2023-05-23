@@ -1,0 +1,123 @@
+﻿<Window x:Class="IHM_VRAI_CUSTOM_NET.F.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        xmlns:local="clr-namespace:IHM_VRAI_CUSTOM_NET" xmlns:c="clr-namespace:IHM_VRAI_CUSTOM_NET.C" d:DataContext="{d:DesignInstance Type=c:C_COORDINATION}"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="740"
+        Width="1280"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="1030"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Left Menu-->
+        <Border CornerRadius="10 0 0 10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#223266" Offset="0"/>
+                    <GradientStop Color="#22396b" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <StackPanel>
+                <!--Username-->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 35 0 0">
+                    <Border CornerRadius="10" Width="40" Height="40">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                                <GradientStop Color="#7f7cf1" Offset="0"/>
+                                <GradientStop Color="#d3b7ff" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+
+                        <TextBlock x:Name="TB_PN" Text="" Foreground="#fff" FontSize="22" FontWeight="SemiBold"
+                                   TextAlignment="Center" VerticalAlignment="Center" Margin="3 0 0 2"/>
+
+                    </Border>
+
+                    <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding LeClient.PrenomClient}" FontSize="15" Margin="0 0 5 5" Foreground="#c2cfff"/>
+                            <TextBlock Text="{Binding LeClient.NomClient}" FontSize="15" Foreground="#c2cfff"/>
+                        </StackPanel>
+                        <TextBlock Text="Beta 1.0" FontSize="11"  Foreground="#7788bf"/>
+                    </StackPanel>
+
+                </StackPanel>
+
+                <Separator Height="0.8" Margin="20 30" Background="#46558a"/>
+
+                <!--Menu Buttons-->
+
+                <Button x:Name="BTN_Home" Click="BTN_Home_Click"  Style="{StaticResource menuButtonActive}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Accueil" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="BTN_Bois" Click="BTN_Bois_Click" Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Square" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Bois" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="BTN_Micro" Click="BTN_Micro_Click" Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Microphone" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Micro" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="BTN_Vibrato" Click="BTN_Vibrato_Click" Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="CodeCommit" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Vibrato" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="BTN_Commande" Click="BTN_Commande_Click" Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="FileLines" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Commande" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                
+                <Button x:Name="BTN_Quitter" Click="BTN_Quitter_Click" Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="PowerOff" Style="{StaticResource menuButtonIcon}"/>
+                        <TextBlock Text="Quitter" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+
+
+        </Border>
+
+        <Border Grid.Column="1" CornerRadius="0 10 10 0" MouseDown="Border_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                    <GradientStop Color="#41518f" Offset="0"/>
+                    <GradientStop Color="#2c386c" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Frame x:Name="F_Page" NavigationUIVisibility="Hidden"/>
+
+
+        </Border>
+
+    </Grid>
+</Window>

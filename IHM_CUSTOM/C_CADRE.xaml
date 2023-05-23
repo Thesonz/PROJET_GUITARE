@@ -1,0 +1,61 @@
+﻿<Window x:Class="IHM_CUSTOM.C_CADRE"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IHM_CUSTOM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- GRID BARRE MENU-->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Projet Guitare" FontSize="32"/>
+
+            <Label Grid.Column="2" Content="(NOM)" FontSize="32"/>
+            <Image x:Name="IMGProfile" Stretch="Fill" HorizontalAlignment="Right" Grid.Column="2" Width="32" Height="32"/>
+        </Grid>
+
+        <!-- GRID ACCUEIL-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="IMGGuitare" Grid.Column="0" Stretch="Fill"/>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="87*"/>
+                    <ColumnDefinition Width="13*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="1" x:Name="BTNListeBois" Content="Liste des Bois" FontSize="32" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="103,0,0,0"/>
+                <Button Grid.Row="2" x:Name="BTNListeMicro" Content="Liste des Micro" FontSize="32" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="92,0,0,0"/>
+                <Button Grid.Row="3" x:Name="BTNListeVibrato" Content="Liste des Vibrato" FontSize="32" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="81,0,0,0"/>
+
+
+                <Button Grid.Row="5" x:Name="BTNAjoutGuitare" Content="Crée votre guitare" FontSize="32" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="71,0,0,0"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

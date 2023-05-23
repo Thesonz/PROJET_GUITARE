@@ -1,0 +1,128 @@
+﻿<Page x:Class="IHM_VRAI_CUSTOM_NET.F.P.P_HOME_VIBRATO"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:IHM_VRAI_CUSTOM_NET.F.P" xmlns:c="clr-namespace:IHM_VRAI_CUSTOM_NET.C" d:DataContext="{d:DesignInstance Type=c:C_COORDINATION}"
+      mc:Ignorable="d" 
+      Height="740"
+        Width="1030"
+        Background="Transparent"
+      Title="P_HOME">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TB_HomeTitle" Text="" FontSize="26" Foreground="#ccd7ff" HorizontalAlignment="Left" Margin="50 35 0 20"/>
+
+        <Grid Grid.Row="2">
+
+            <!-- Chart Section-->
+
+            <Border CornerRadius="20" Padding="35 25" Background="#243771" Margin="50 0 50 40">
+                <Grid>
+                    
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 25">
+                        <fa:IconImage Icon="Circle" Style="{StaticResource titleIcon}"/>
+                        <TextBlock Text="Création de guitare" Style="{StaticResource menuText}"/>
+                    </StackPanel>
+
+
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="360"/>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Bois" FontSize="16" HorizontalAlignment="Left" FontWeight="SemiBold" Margin="5 0 0 0" Foreground="#fff"/>
+                            <TextBlock Grid.Column="1" Text="Micro" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="30 0 0 0" Foreground="#fff"/>
+                            <TextBlock Grid.Column="2" Text="Vebrato" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="20 0 0 0" Foreground="#fff"/>
+                            <TextBlock Grid.Column="3" Text="Verification" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="10 0 0 0" Foreground="#fff"/>
+                            <TextBlock Grid.Column="4" Text="Commandé" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="0 0 0 0" Foreground="#fff"/>
+
+
+                        </Grid>
+                        
+                        <Canvas Grid.Row="1" Margin="0 0 0 0">
+                            <Rectangle Grid.Row="1" Margin="30 15 0 0" Width="780" Height="10" Fill="White"/>
+                            <Ellipse Margin="0 0 0 0" Width="40" Height="40" Fill="White"/>
+                            <Ellipse Margin="195 0 0 0" Width="40" Height="40" Fill="White"/>
+                            <Ellipse Margin="390 0 0 0" Width="40" Height="40" Fill="#495385"/>
+                            <Ellipse Margin="585 0 0 0" Width="40" Height="40" Fill="White"/>
+                            <Ellipse Margin="780 0 0 0" Width="40" Height="40" Fill="White"/>
+                        </Canvas>
+
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0" Source="../../Img/Guitare_Electrique_Vertical.png" Margin="0 10"/>
+
+                            <Grid Grid.Column="1" VerticalAlignment="Center">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TextBlock Grid.Column="0" Grid.Row="0" Text="Vibrato :" Margin="0 30 " Style="{StaticResource normalText}" VerticalAlignment="Center"/>
+
+                                <ComboBox x:Name="CB_Vibrato" SelectionChanged="CB_Vibrato_SelectionChanged" Grid.Column="1" Grid.Row="0" Margin="20 0" Height="30" SelectedIndex="{Binding Vibrato}" SelectedItem="{Binding VibratoItem}" ItemsSource="{Binding Liste_Vibrato}">
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label Content="{Binding NomVibrato}"/>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>
+                                  
+                                
+                            </Grid>
+
+                        </Grid>
+
+                        <Button x:Name="BTN_Suivant" Click="BTN_Suivant_Click" Content="Suivant" Grid.Row="3" Style="{StaticResource button}" Margin="0 20 0 0" HorizontalAlignment="Right" />
+                        <Button x:Name="BTN_Precedent" Click="BTN_Precedent_Click" Content="Précedent" Grid.Row="3" Style="{StaticResource button}" Margin="0 20 0 0" HorizontalAlignment="Left" />
+                    </Grid>
+
+
+
+                </Grid>
+            </Border>
+
+            <!--Orders Sections-->
+
+            
+            
+
+        </Grid>
+        
+    </Grid>
+</Page>
